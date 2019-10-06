@@ -1,39 +1,18 @@
-<<<<<<< HEAD
 name: GitHub Pages
-
 on:
-    push:
-        branches:
-        - sources
+  push:
+    branches:
+    - sources
 
 jobs:
-    build-deploy:
-        runs-on: ubuntu-18.04
+  build-deploy:
+    runs-on: ubuntu-18.04
 
-        steps:
-        - uses: actions/checkout@v1
-        - name: Run a one-line script
-        run: echo Hello, World
-        - name: Run a multi-line script
-        run: |
-            echo Add other actions to build,
-            echo test, and deploy your project.
-=======
-name: CI
-
-on: [push]
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-    
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-      run: echo Hello, world!
+    run: echo Hello, World
     - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
->>>>>>> origin/master
+    run: |
+      echo Add other actions to build,
+      echo test, and deploy your project.
