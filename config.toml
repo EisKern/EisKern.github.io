@@ -13,26 +13,26 @@ theme = "prologue"
     icon = "twitter"
     link = "#"
 
-[[params.social]]
-    medium = "facebook"
-    icon = "facebook"
-    link = "#"
+# [[params.social]]
+#     medium = "facebook"
+#     icon = "facebook"
+#     link = "#"
 
 [[params.social]]
     medium = "github"
     icon = "github"
     link = "#"
 
-[[params.social]]
-    medium = "dribbble"
-    icon = "dribbble"
-    link = "#"
-
+# [[params.social]]
+#     medium = "dribbble"
+#     icon = "dribbble"
+#     link = "#"
 
 # [[params.social]]
 #    medium = "email"
 #    icon = "envelope"
 #    link = "#"
+
 
 # Portfolio column one
 
@@ -48,6 +48,7 @@ theme = "prologue"
     source = "img/pic03.jpg"
     url = "#"
 
+
 # Portfolio column two
 
 [[params.portfolio2]]
@@ -61,6 +62,7 @@ theme = "prologue"
     alt = ""
     source = "img/pic05.jpg"
     url = "#"
+
 
 # Portfolio column 3
 
