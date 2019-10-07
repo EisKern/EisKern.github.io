@@ -18,7 +18,7 @@ jobs:
 
     - name: Build
       run: |
-        hugo --gc
+        hugo --gc --minify --cleanDestinationDir
         echo "eiskern.com" > ./public/CNAME
         echo "https://eiskern.com/" > ./public/README.md
 
