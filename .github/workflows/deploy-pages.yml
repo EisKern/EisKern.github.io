@@ -27,5 +27,10 @@ jobs:
         PUBLISH_DIR: ./public
 
     - name: Add CNAME
-      run: echo "eiskern.com" > CNAME
+      run: |
+        touch CNAME
+        echo "eiskern.com" > CNAME
+      env:
+        PUBLISH_BRANCH: master
+
 
