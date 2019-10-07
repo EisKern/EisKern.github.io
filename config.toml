@@ -1,4 +1,4 @@
-baseURL = "http://eiskern.github.io/"
+baseURL = "https://eiskern.com/"
 languageCode = "en-us"
 title = "YuK Portfolio"
 theme = "prologue"
