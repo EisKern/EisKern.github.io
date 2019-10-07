@@ -1,4 +1,4 @@
-name: deploy site to github pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -7,14 +7,22 @@ on:
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
-
+    runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+    - uses: actions/checkout@source
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2.2.0
+      with:
+        hugo-version: '0.58.3'
+
+    - name: Build
+      run: hugo --gc --minify --cleanDestinationDir
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.4.0
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: master
+        PUBLISH_DIR: ./public
+
