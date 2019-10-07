@@ -17,7 +17,9 @@ jobs:
         hugo-version: '0.58.3'
 
     - name: Build
-      run: hugo --gc --minify --cleanDestinationDir
+      run: |
+        hugo --gc --minify --cleanDestinationDir
+        echo "eiskern.com" > ./public/CNAME
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.4.0
@@ -26,11 +28,5 @@ jobs:
         PUBLISH_BRANCH: master
         PUBLISH_DIR: ./public
 
-    - name: Add CNAME
-      run: |
-        touch CNAME
-        echo "eiskern.com" > CNAME
-      env:
-        PUBLISH_BRANCH: master
 
 
