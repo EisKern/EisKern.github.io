@@ -20,6 +20,7 @@ jobs:
       run: |
         hugo --gc --minify --cleanDestinationDir
         echo "eiskern.com" > ./public/CNAME
+        echo "https://eiskern.com/" > ./public/README.md
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.4.0
