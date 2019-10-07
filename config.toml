@@ -6,12 +6,12 @@ theme = "prologue"
 [params]
     name = "YuK"
     description = "Student"
-    copyright = "Untitled."
+    copyright = "2019 YuK."
 
 [[params.social]]
-    medium = "twitter"
+    medium = "Twitter"
     icon = "twitter"
-    link = "#"
+    link = "https://twitter.com/EisKern"
 
 # [[params.social]]
 #     medium = "facebook"
@@ -19,9 +19,9 @@ theme = "prologue"
 #     link = "#"
 
 [[params.social]]
-    medium = "github"
+    medium = "GitHub"
     icon = "github"
-    link = "#"
+    link = "https://github.com/EisKern"
 
 # [[params.social]]
 #     medium = "dribbble"
@@ -37,43 +37,44 @@ theme = "prologue"
 # Portfolio column one
 
 [[params.portfolio1]]
-    title = "Ipsum Feugiat"
+    title = "Qiita"
     alt = ""
-    source = "img/pic02.jpg"
+#     source = "img/pic02.jpg"
     url = "#"
 
 [[params.portfolio1]]
-    title = "Rhoncus Semper"
+    title = "Tech Blog"
     alt = ""
-    source = "img/pic03.jpg"
+#     source = "img/pic03.jpg"
     url = "#"
 
 
 # Portfolio column two
 
 [[params.portfolio2]]
-    title = "Magna Nullam"
+    title = "Tic Toc Toe"
     alt = ""
-    source = "img/pic04.jpg"
+#     source = "img/pic04.jpg"
     url = "#"
 
-[[params.portfolio2]]
-    title = "Natoque Vitae"
-    alt = ""
-    source = "img/pic05.jpg"
-    url = "#"
+# [[params.portfolio2]]
+#     title = "Natoque Vitae"
+#     alt = ""
+#     source = "img/pic05.jpg"
+#     url = "#"
 
 
 # Portfolio column 3
 
 [[params.portfolio3]]
-    title = "Dolor Penatibus"
+    title = "Search Book Cover"
     alt = ""
-    source = "img/pic06.jpg"
+#     source = "img/pic06.jpg"
     url = "#"
 
-[[params.portfolio3]]
-    title = "Orci Convallis"
-    alt = ""
-    source = "img/pic07.jpg"
-    url = "#"
+# [[params.portfolio3]]
+#     title = "Orci Convallis"
+#     alt = ""
+#     source = "img/pic07.jpg"
+#     url = "#"
+
