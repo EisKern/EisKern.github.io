@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "YuK Portfolio"
 theme = "prologue"
 
+# theme homepage: https://themes.gohugo.io/prologue/
+
 [params]
     name = "YuK"
     description = "Student"
@@ -39,13 +41,13 @@ theme = "prologue"
     title = "Qiita"
     alt = ""
 #     source = "img/pic02.jpg"
-    url = "#"
+    url = "https://qiita.com/EisKern"
 
 [[params.portfolio1]]
     title = "Tech Blog"
     alt = ""
 #     source = "img/pic03.jpg"
-    url = "#"
+    url = "https://www.tech-ek.com"
 
 
 # Portfolio column two
@@ -54,7 +56,7 @@ theme = "prologue"
     title = "Tic Toc Toe"
     alt = ""
 #     source = "img/pic04.jpg"
-    url = "#"
+    url = "https://tic-tac-toe.eiskern.com/"
 
 # [[params.portfolio2]]
 #     title = "Natoque Vitae"
@@ -69,7 +71,7 @@ theme = "prologue"
     title = "Search Book Cover"
     alt = ""
 #     source = "img/pic06.jpg"
-    url = "#"
+    url = "https://transparent-book-cover-search.herokuapp.com/"
 
 # [[params.portfolio3]]
 #     title = "Orci Convallis"
