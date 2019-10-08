@@ -9,13 +9,14 @@ jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@source
+      with:
+        submodules: true
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2.2.0
       with:
         hugo-version: '0.58.3'
-        submodules: true
 
     - name: Build
       run: |
