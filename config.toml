@@ -13,15 +13,15 @@ theme = "prologue"
     icon = "twitter"
     link = "https://twitter.com/EisKern"
 
-# [[params.social]]
-#     medium = "facebook"
-#     icon = "facebook"
-#     link = "#"
-
 [[params.social]]
     medium = "GitHub"
     icon = "github"
     link = "https://github.com/EisKern"
+
+# [[params.social]]
+#     medium = "facebook"
+#     icon = "facebook"
+#     link = "#"
 
 # [[params.social]]
 #     medium = "dribbble"
@@ -32,7 +32,6 @@ theme = "prologue"
 #    medium = "email"
 #    icon = "envelope"
 #    link = "#"
-
 
 # Portfolio column one
 
