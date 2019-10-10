@@ -3,10 +3,12 @@ languageCode = "en-us"
 title = "YuK Portfolio"
 theme = "prologue"
 
+banner_link = "img/banner.jpg"
+
 # theme homepage: https://themes.gohugo.io/prologue/
 
 [params]
-    name = "YuK"
+    name = "YuK (EisKern)"
     description = "Student"
     copyright = "2019 YuK."
 
@@ -55,7 +57,7 @@ theme = "prologue"
 [[params.portfolio2]]
     title = "Tic Toc Toe"
     alt = ""
-#     source = "img/pic04.jpg"
+    source = "img/game.jpg"
     url = "https://tic-tac-toe.eiskern.com/"
 
 # [[params.portfolio2]]
