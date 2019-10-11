@@ -60,13 +60,6 @@ banner_link = "img/banner.jpg"
     source = "img/tic-toc-toe-top.png"
     url = "https://tic-tac-toe.eiskern.com/"
 
-# [[params.portfolio2]]
-#     title = "Natoque Vitae"
-#     alt = ""
-#     source = "img/pic05.jpg"
-#     url = "#"
-
-
 # Portfolio column 3
 
 [[params.portfolio3]]
@@ -75,9 +68,4 @@ banner_link = "img/banner.jpg"
     source = "img/search-book-cover-top.png"
     url = "https://transparent-book-cover-search.herokuapp.com/"
 
-# [[params.portfolio3]]
-#     title = "Orci Convallis"
-#     alt = ""
-#     source = "img/pic07.jpg"
-#     url = "#"
 
