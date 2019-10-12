@@ -42,7 +42,7 @@ banner_link = "img/banner.jpg"
 [[params.portfolio1]]
     title = "Qiita"
     alt = ""
-    source = "img/qiita-rectangle.png"
+    source = "img/qiita.png"
     url = "https://qiita.com/EisKern"
 
 [[params.portfolio1]]
@@ -55,12 +55,24 @@ banner_link = "img/banner.jpg"
 # Portfolio column two
 
 [[params.portfolio2]]
+    title = "Treasure Hunt in Terminal (Linux)"
+    alt = ""
+    source = "img/treasure-hunt.png"
+    url = ""
+
+[[params.portfolio2]]
     title = "Tic Toc Toe"
     alt = ""
     source = "img/tic-toc-toe-top.png"
     url = "https://tic-tac-toe.eiskern.com/"
 
 # Portfolio column 3
+
+[[params.portfolio3]]
+    title = "Standard App in JavaFX"
+    alt = ""
+    source = "img/standard-app.png"
+    url = ""
 
 [[params.portfolio3]]
     title = "Search Book Cover"

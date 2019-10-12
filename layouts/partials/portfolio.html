@@ -9,7 +9,7 @@
                 <div class="4u 12u$(mobile)">
                     {{ range .Site.Params.portfolio1 }}
                         <article class="item">
-                            <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="image fit">
+                            <a {{ if ne .url "" }} href="{{ .url }}" {{ end }} target="_blank" rel="noopener noreferrer" class="image fit">
                                 <img src="{{ .source }}" alt="{{ .alt }}" />
                                 <header>
                                     <h3>{{ .title }}</h3>
@@ -22,7 +22,7 @@
                 <div class="4u 12u$(mobile)">
                     {{ range .Site.Params.portfolio2 }}
                         <article class="item">
-                            <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="image fit">
+                            <a {{ if ne .url "" }} href="{{ .url }}" {{ end }} target="_blank" rel="noopener noreferrer" class="image fit">
                                 <img src="{{ .source }}" alt="{{ .alt }}" />
                                 <header>
                                     <h3>{{ .title }}</h3>
@@ -35,7 +35,7 @@
                 <div class="4u 12u$(mobile)">
                     {{ range .Site.Params.portfolio3 }}
                         <article class="item">
-                            <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="image fit">
+                            <a {{ if ne .url "" }} href="{{ .url }}" {{ end }} target="_blank" rel="noopener noreferrer" class="image fit">
                                 <img src="{{ .source }}" alt="{{ .alt }}" />
                                 <header>
                                     <h3>{{ .title }}</h3>
