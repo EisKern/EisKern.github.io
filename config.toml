@@ -1,6 +1,6 @@
 baseURL = "https://eiskern.com/"
 languageCode = "en-us"
-title = "YuK Portfolio"
+title = "YuK Homepage"
 theme = "prologue"
 
 banner_link = "img/banner.jpg"
@@ -11,6 +11,10 @@ banner_link = "img/banner.jpg"
     name = "YuK (EisKern)"
     description = "Student"
     copyright = "2019 YuK."
+
+[[params.intro]]
+    title = 'YuK Homepage'
+    detail = "Currently in Preparation."
 
 [[params.social]]
     medium = "Twitter"
