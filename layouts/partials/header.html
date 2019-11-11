@@ -4,6 +4,9 @@
         <!-- Logo -->
         <div id="logo">
             <!-- <span class="image avatar48"><img src="img/avatar.jpg" alt="" /></span> -->
+            {{ if ne .Site.Params.avatar "" }}
+                <span class="image avatar48"><img src={{ .Site.Params.avatar }} alt="" /></span>
+            {{ end }}
             <h1 id="title">{{ .Site.Params.name }}</h1>
             <p>{{ .Site.Params.description }}</p>
         </div>

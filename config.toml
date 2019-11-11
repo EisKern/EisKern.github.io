@@ -11,6 +11,7 @@ banner_link = "img/banner.jpg"
     name = "YuK (EisKern)"
     description = "Student"
     copyright = "2019 YuK."
+    avatar = "img/avatar.jpg"
 
 [[params.intro]]
     title = 'YuK Homepage'
