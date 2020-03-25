@@ -1,88 +1,86 @@
-baseURL = "https://eiskern.com/"
-languageCode = "en-us"
+author = "YuK"
+baseurl = "https://eiskern.com/"
+copyright = "YuK"
+disqusshortname = ""
+googleanalytics = "UA-134055907-5"
 title = "YuK Homepage"
 theme = "prologue"
 
-banner_link = "img/banner.jpg"
-
-# theme homepage: https://themes.gohugo.io/prologue/
+languageCode = "en-us"
 
 [params]
     name = "YuK (EisKern)"
     description = "Student"
-    copyright = "2019 YuK."
     avatar = "img/avatar.jpg"
 
-[[params.intro]]
-    title = 'YuK Homepage'
-    detail = "Currently in Preparation."
+# intro(top), about, portfolio, contact
+[[params.contents]]
+    name = "intro"
+    title = "Intro"
+    href = "top"
+    icon = "fa-home"
+    banner = "img/banner.jpg"
 
-[[params.social]]
-    medium = "Twitter"
-    icon = "twitter"
-    link = "https://twitter.com/EisKern"
+[[params.contents]]
+    name = "about"
+    title = "About Me"
+    href = "about"
+    icon = "fa-user"
 
-[[params.social]]
-    medium = "GitHub"
-    icon = "github"
-    link = "https://github.com/EisKern"
+[[params.contents]]
+    name = "portfolio"
+    title = "Portfolio"
+    href = "portfolio"
+    icon = "fa-th"
 
-# [[params.social]]
-#     medium = "facebook"
-#     icon = "facebook"
-#     link = "#"
+[[params.contents]]
+    name = "contact"
+    title = "Contact"
+    href = "contact"
+    icon = "fa-envelope"
 
-# [[params.social]]
-#     medium = "dribbble"
-#     icon = "dribbble"
-#     link = "#"
 
-# [[params.social]]
-#    medium = "email"
-#    icon = "envelope"
-#    link = "#"
-
-# Portfolio column one
-
-[[params.portfolio1]]
+# contents in portfolio
+[[params.portfolio]]
     title = "Qiita"
     alt = ""
     source = "img/qiita.png"
     url = "https://qiita.com/EisKern"
 
-[[params.portfolio1]]
+[[params.portfolio]]
     title = "Tech Blog"
     alt = ""
     source = "img/blog-top.png"
     url = "https://www.tech-ek.com"
 
-
-# Portfolio column two
-
-[[params.portfolio2]]
-    title = "Treasure Hunt in Terminal (Linux)"
-    alt = ""
-    source = "img/treasure-hunt.png"
-    url = ""
-
-[[params.portfolio2]]
+[[params.portfolio]]
     title = "Tic Toc Toe"
     alt = ""
     source = "img/tic-toc-toe-top.png"
     url = "https://tic-tac-toe.eiskern.com/"
 
-# Portfolio column 3
-
-[[params.portfolio3]]
-    title = "Standard App in JavaFX"
-    alt = ""
-    source = "img/standard-app.png"
-    url = ""
-
-[[params.portfolio3]]
+[[params.portfolio]]
     title = "Search Book Cover"
     alt = ""
     source = "img/search-book-cover-top.png"
     url = "https://transparent-book-cover-search.herokuapp.com/"
 
+[[params.portfolio]]
+    title = "Treasure Hunt in Terminal (Linux)"
+    alt = ""
+    source = "img/treasure-hunt.png"
+    url = ""
 
+[[params.portfolio]]
+    title = "Standard App in JavaFX"
+    alt = ""
+    source = "img/standard-app.png"
+    url = ""
+
+
+[social]
+    twitter = "EisKern"
+    github = "EisKern"
+    facebook = ""
+    dribbble = ""
+    email = ""
