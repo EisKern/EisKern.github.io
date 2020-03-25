@@ -11,7 +11,8 @@ languageCode = "en-us"
 [params]
     name = "YuK (EisKern)"
     description = "Student"
-    avatar = "img/avatar.jpg"
+    avatar = "https://twitter.com/EisKern/photo"
+    favicon = ""
 
 # intro(top), about, portfolio, contact
 [[params.contents]]
@@ -19,25 +20,31 @@ languageCode = "en-us"
     title = "Intro"
     href = "top"
     icon = "fa-home"
-    banner = "img/banner.jpg"
+    banner = "banner"
+    homepage_title = "YuK Homepage"
+    description = ""
 
-[[params.contents]]
-    name = "about"
-    title = "About Me"
-    href = "about"
-    icon = "fa-user"
+# [[params.contents]]
+#     name = "about"
+#     title = "About Me"
+#     href = "about"
+#     icon = "fa-user"
+#     img = "img/about.jpg"
+#     description = ""
 
 [[params.contents]]
     name = "portfolio"
     title = "Portfolio"
     href = "portfolio"
     icon = "fa-th"
+    description = "created by YuK."
 
-[[params.contents]]
-    name = "contact"
-    title = "Contact"
-    href = "contact"
-    icon = "fa-envelope"
+# [[params.contents]]
+#     name = "contact"
+#     title = "Contact"
+#     href = "contact"
+#     icon = "fa-envelope"
+#     description = ""
 
 
 # contents in portfolio
